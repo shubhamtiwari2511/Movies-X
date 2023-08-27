@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { fetchDataFromApi } from "./utils/api";
 import { getApiConfiguration, getGenres } from "./store/homeSlice";
 import { useDispatch } from "react-redux";
-import Header from "./components/header/header";
+import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import Details from "./pages/details/Details";
